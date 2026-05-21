@@ -133,8 +133,8 @@ MDict 词库通常以 `.mdx` 为主文件，配套 `.mdd` 资源包、外置 `.c
 | `MDict/OALECD8/`           | Title (No HTML code allowed)                                  | `Encrypted=2` | `.mdd`、图片          |
 | `MDict/CALD3/`             | Title (No HTML code allowed)                                  | `Encrypted=2` | `.mdd`、图片          |
 | `MDict/CALD4/`             | Title (No HTML code allowed)                                  | `Encrypted=2` | `.mdd`、图片          |
-| `MDict/CollinsALD8/`       | Collins COBUILD Advanced Learner's Dictinary / 8th ed (En-En) | `Encrypted=0` | 图片                  |
-| `MDict/MWALED2016/`        | Merriam-Webster's Advanced Learner's English Dictionary       | `Encrypted=2` | `.mdd`、`.css`、图片  |
+| `MDict/CCALD8/`            | Collins COBUILD Advanced Learner's Dictinary / 8th ed (En-En) | `Encrypted=0` | 图片                  |
+| `MDict/MWALED/`            | Merriam-Webster's Advanced Learner's English Dictionary       | `Encrypted=2` | `.mdd`、`.css`、图片  |
 | `MDict/MWCD11/Simplified/` | Merriam-Webster's Collegiate Dictionary 11th Edition          | `Encrypted=2` | `.mdd`、图片          |
 | `MDict/MWCD11/Enriched/`   | Merriam-Webster's Collegiate Dictionary                       | `Encrypted=2` | `.mdd`、图片/声音资源 |
 
