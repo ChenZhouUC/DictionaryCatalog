@@ -3,7 +3,7 @@
 # breaking compatibility, so leave them byte-identical to upstream.
 MDict/
 StarDict/
-EudicTranslationEngine/
+EudicTE/
 
 # Auto-generated manifest snapshot — formatting would scramble the fixed-width
 # columns inside the code block.

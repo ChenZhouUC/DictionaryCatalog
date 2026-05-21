@@ -44,7 +44,7 @@ HASH_PREFIX_LEN = 16  # chars of SHA-256 shown in the human-readable manifest
 TRACKED_DIRS = (
     "StarDict",
     "MDict",
-    "EudicTranslationEngine",
+    "EudicTE",
 )
 TRACKED_SUFFIXES = (
     # StarDict
