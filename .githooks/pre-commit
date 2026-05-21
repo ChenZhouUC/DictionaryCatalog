@@ -1,0 +1,15 @@
+#!/usr/bin/env bash
+# Pre-commit hook: refresh MANIFEST.md and stage it if it changed.
+# Activate once per clone with: git config core.hooksPath .githooks
+
+set -euo pipefail
+
+REPO_ROOT="$(git rev-parse --show-toplevel)"
+cd "$REPO_ROOT"
+
+./refresh-manifest.py >/dev/null
+
+if ! git diff --quiet -- MANIFEST.md 2>/dev/null || ! git ls-files --error-unmatch MANIFEST.md >/dev/null 2>&1; then
+    git add MANIFEST.md
+    echo "[pre-commit] MANIFEST.md refreshed and staged."
+fi

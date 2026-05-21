@@ -1,0 +1,30 @@
+# macOS / editor noise
+.DS_Store
+**/.DS_Store
+Thumbs.db
+__MACOSX/
+*.swp
+*~
+
+# Manifest refresh cache (regenerated locally; do not commit).
+.manifest-cache.tsv
+.manifest-cache.tsv.tmp
+
+# Tooling and language caches.
+.ruff_cache/
+__pycache__/
+*.pyc
+.mypy_cache/
+.idea/
+.vscode/
+
+# Dictionary payloads.
+# Keep directories, metadata, CSS, and standalone images visible in Git.
+# Exclude the actual dictionary bodies and large packaged resources.
+# Local presence is still tracked indirectly via MANIFEST.md (path/size/sha256).
+*.dict
+*.dict.dz
+*.mdx
+*.mdd
+*.dsl
+*.dsl.dz

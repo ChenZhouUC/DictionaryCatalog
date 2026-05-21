@@ -1,0 +1,10 @@
+# Third-party dictionary assets (CSS, HTML, JSON etc. embedded in upstream
+# packages). Reformatting them would mutate dictionary rendering and risk
+# breaking compatibility, so leave them byte-identical to upstream.
+MDict/
+StarDict/
+EudicTranslationEngine/
+
+# Auto-generated manifest snapshot — formatting would scramble the fixed-width
+# columns inside the code block.
+MANIFEST.md
