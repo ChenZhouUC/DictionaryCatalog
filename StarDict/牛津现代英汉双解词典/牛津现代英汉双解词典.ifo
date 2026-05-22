@@ -2,10 +2,10 @@ StarDict's dict ifo file
 version=2.4.2
 wordcount=39429
 idxfilesize=721264
-bookname=牛津英汉双解美化版
-author=Terrence Miao
-email=terence_miao@email.com
-website=http://igloo.its.unimelb.edu.au/Blowfish/
-description=胡正将其转换到StarDict，罗冲正误霍东灵修音，隋轶美化。
-date=2007.9.24
+bookname= 牛津现代英汉双解词典
+author=商务印书馆辞书研究中心 / 牛津大学出版社
+email=cp@cp.com.cn
+website=http://www.cp.com.cn/
+description=《牛津现代英汉双解词典》（Oxford Modern English Chinese Dictionary）由商务印书馆引进并编译出版。作为牛津大学出版社经典词典的汉化双解版本，它完美延续了牛津词典一贯的严谨性与权威性。该词典的核心特色在于其“双解”模式——同时保留了原汁原味的英文释义与精准地道的中文翻译。这种设计不仅能帮助学习者通过中文快速领会词意，更能在阅读英文释义的过程中培养用英语思考的习惯，避免因单纯的翻译转换而产生语境理解偏差。2000年代中后期的数字化版本完美继承了纸质书的精髓，收录了大量现代英语中的常用词汇、派生词及新词，并配有极为丰富的短语搭配与地道例句，是当时高校学生、英语专业人员以及中高级英语学习者最信赖的案头工具书之一。
+date=20060609
 sametypesequence=m

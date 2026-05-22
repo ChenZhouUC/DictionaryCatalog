@@ -2,10 +2,10 @@ StarDict's dict ifo file
 version=2.4.2
 wordcount=31992
 idxfilesize=504283
-bookname=CEDICT汉英辞典
+bookname=CEDICT
 author=Paul Denisowski
 email=cedict@chinesetools.com
 website=http://www.mandarintools.com/cedict.html
-description=胡正制作。
-date=2006.5.27
+description=CEDICT (originally started as CEDICT by Paul Denisowski in 1997) is a prominent, community-driven open-source Chinese-English dictionary project. It serves as one of the most vital foundations for digital Chinese language learning, powering countless modern dictionary apps, software, and translation tools worldwide.The project provides a fully accessible database containing over 100,000 Chinese entries, featuring Simplified characters, Traditional characters, Pinyin (with tone numbers), and concise English definitions. Because it is maintained by a global community of contributors, it is exceptionally quick at adopting internet slang, neologisms, and contemporary vocabulary, making it an indispensable resource for computational linguistics, software developers, and students of the Chinese language.
+date=20060527
 sametypesequence=ym
