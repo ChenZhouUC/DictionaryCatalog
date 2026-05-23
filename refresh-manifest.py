@@ -62,6 +62,7 @@ TRACKED_SUFFIXES = (
     ".dsl.dz",
     # Styling and imagery
     ".css",
+    ".js",
     ".png",
     # Eudic translation engine plugins
     ".eudb",
