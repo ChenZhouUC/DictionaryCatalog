@@ -1,0 +1,437 @@
+body {
+margin: 0;
+padding: 0;
+word-wrap: break-word!important;
+font-family: "Microsoft YaHei UI", "Lucida Sans Unicode", "Helvetica Neue", Helvetica, Arial, "PingFang SC", "WenQuanYi Micro Hei", sans-serif;
+line-height: 1.2em;
+font-size: 10pt;
+}
+
+legend, ul, ol {
+padding: 0
+}
+
+p, h2 {
+text-indent: 0;
+word-wrap: break-word;
+-webkit-margin-before: 0em;
+-webkit-margin-after: 0em;
+-webkit-margin-start: 0px;
+-webkit-margin-end: 0px;
+}
+
+.header {
+display: inline-block;
+font-weight: bold;
+font-size: 100%;
+color: red;
+margin-top: 1em;
+}
+
+.ncecd_con {
+display: inline;
+}
+
+.class_box {
+margin-top: 1em;
+}
+
+.class {
+display: inline-block;
+color: darkmagenta;
+font-family: "Microsoft Yahei UI", "Lucida Sans Unicode";
+font-weight: bold;
+font-size: 100%;
+margin-left: 0.4em;
+}
+
+.class+.etips, .class+.tense {
+display: block;
+margin: 0 0 .3em;
+}
+
+.label_box {
+margin: .3em 0;
+}
+
+.label {
+color: teal;
+font-size: 90%;
+
+}
+
+.tense {
+margin: 0 .3em;
+font-size: 95%;
+display: block;
+color: slategray;
+text-transform: lowercase;
+}
+
+.tense b {
+color: initial;
+text-transform: initial;
+color: slategray;
+}
+
+.label+.label {
+margin-left: 0;
+}
+
+.etips {
+color: gray;
+}
+
+.sense {
+margin-left: 1.4em;
+}
+
+.sense .zh {
+font-size: 95%;
+
+}
+
+.sense i {
+font-style: normal;
+}
+
+.num {
+font-weight: bold;
+font-size: 90%;
+color: #00c;
+display: inline-block;
+width: 1.6em;
+margin-left: -1.6em;
+margin-top: 0.15em;
+}
+
+.num:after {
+content: '';
+}
+
+.also>b {
+margin-right: 0.4em;
+color: crimson;
+font-weight: bold;
+font-size: 95%;
+}
+
+.sense .also {
+margin: 0 0 0 .5em;
+}
+
+.ex {
+font-style: normal;
+color: #369;
+letter-spacing: 0.5px;
+font-size: 95%;
+margin-left: 2.8em;
+text-indent: -1.4em;
+display: block;
+margin-top: 0.4em;
+}
+
+.ex:before {
+content: "\021D2\020";
+color: #FF7E1E;
+display: inline;
+font-size: 95%;
+}
+
+.ex .zh {
+font-style: normal;
+color: #369;
+letter-spacing: 0.5px;
+font-size: 95%;
+margin-left: 1.4em;
+display: block;
+}
+
+.phr, .note {
+display: block;
+
+background: rgb(255, 255, 255);
+border: 2px dashed #C0C0C0;
+border-radius: 8px;
+padding: 4px 6px;
+margin: 6px 6px 6px 8px;
+box-shadow: #808080;
+font-size: 95%;
+}
+
+.phr b {
+margin-right: 0.4em;
+color: crimson;
+font-weight: bold;
+font-size: 95%;
+}
+
+.phr b:after {
+content: ':';
+}
+
+.phr>a {
+margin-left: 0.4em;
+}
+
+fieldset.usage {
+border: 1.5px solid gray;
+}
+
+legend.usage.title {
+font-weight: bold;
+}
+
+a {
+font-weight: bold;
+font-size: 90%;
+color: #12C;
+}
+
+.ncecd_con>.also {
+margin-left: 1.4em;
+}
+
+fieldset.culture.note {
+border: 1.5px solid gray;
+}
+
+legend.culture.notehead {
+font-weight: bold;
+}
+
+.culture.notetitle {
+font-weight: bold;
+}
+
+NCECD img {
+width: 640px;
+max-width: 100%;
+}
+
+NCECD img.img_big {
+width: 100%;
+max-width: 100%;
+}
+
+span.pluralor {
+padding-left: 2px;
+padding-right: 3.5px;
+color: slategray;
+font-style: italic;
+}
+
+span.plural {
+padding-left: 2px;
+padding-right: 2px;
+}
+
+span.tensexxx {
+padding-left: 2px;
+padding-right: 2px;
+}
+
+span.labelnone {
+display: none;
+}
+
+span.engamdiffernt {
+font-size: 95%;
+font-weight: 400;
+text-transform: initial;
+color: slategray;
+margin: 0 .3em;
+}
+
+span.symbol {
+border: 1px solid darkslategray;
+border-radius: 30px;
+padding-left: 5px;
+padding-right: 5px;
+}
+
+pron {
+margin-left: 0.4em;
+margin-right: 0.4em;
+display: inline-block;
+font-size: 100%;
+font-family: 'Lucida Sans Unicode';
+color: sienna;
+white-space: nowrap;
+}
+
+span.nonepron {
+display: none;
+}
+
+span.spelldiffernt {
+display: block;
+}
+
+span.mphr_en {
+font-weight: normal;
+
+color: black;
+}
+
+.next {
+font-weight: normal;
+
+color: black;
+margin-top: 1.0em;
+}
+
+.next+.sense {
+margin-top: 0em;
+}
+
+.maybe_phrase {
+margin-left: 1.4em;
+margin-top: 0.6em;
+}
+
+strong.brief_ex {
+margin-right: 0.2em;
+font-weight: bold;
+font-size: 95%;
+}
+
+.maybe_phrase span.zh {
+font-weight: normal;
+padding-left: 4px;
+font-size: 95%;
+}
+
+span.doble.bigword {
+font-size: 65%;
+padding-left: 9px;
+}
+
+span.doble.bigword:before {
+content: "or";
+padding-right: 6px;
+font-style: italic;
+color: slategray;
+}
+
+.mphr_en>.or {
+color: rgb(78, 131, 0);
+font-size: 90%;
+display: inline-block;
+margin-left: 0.4em;
+margin-right: 0.4em;
+}
+
+.or {
+color: rgb(78, 131, 0);
+font-size: 90%;
+display: inline-block;
+margin-left: 0.4em;
+margin-right: 0.4em;
+}
+
+.maybe_phrase>.or {
+color: black;
+font-size: 100%;
+display: inline-block;
+margin-left: 0em;
+margin-right: 0em;
+}
+
+span.collocation {
+color: rgb(78, 131, 0);
+font-size: 90%;
+}
+
+.collocation+.zh {
+margin-left: 0.4em;
+}
+
+span.differ.big {
+margin: 0 .5em 0 0;
+}
+
+.ncecd_con>.idom {
+display: block;
+
+background: rgb(255, 255, 255);
+border: 2px dashed #C0C0C0;
+border-radius: 8px;
+padding: 4px 6px;
+margin: 6px 6px 6px 8px;
+box-shadow: #808080;
+font-size: 95%;
+}
+
+.ncecd_con>.idom>.sense {
+margin-left: 0em;
+}
+
+.idom>.idom {
+color: darkmagenta;
+font-weight: bold;
+font-size: 95%;
+margin-top: 1em;
+display: none;
+}
+
+.sense+.sense {
+margin-top: 0em;
+}
+
+.idom+.sense {
+margin-top: 0em;
+}
+
+span.dodo {
+padding-right: 0.2em;
+}
+
+.dodo {
+display: none;
+}
+
+.abc {
+display: none;
+}
+
+.abc+.class {
+margin-left: 0em;
+}
+
+.abbre {
+font-style: italic;
+color: teal;
+font-size: 85%;
+letter-spacing: 0.5px;
+margin-right: 0.4em;
+}
+
+.class+.sense {
+margin-top: 0.3em;
+}
+
+.class_box+.sense {
+margin-top: 0.3em;
+}
+
+.dodo~.zh {
+margin-left: 0.4em;
+}
+
+pron+.class_box {
+display: inline;
+}
+
+.class_box+.label_box {
+display: inline;
+}
+
+.class+.label_box {
+display: inline;
+}
+
+.sense>.num {
+margin-top: 0.8em;
+display: inline-block;
+}
